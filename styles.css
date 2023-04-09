@@ -1,0 +1,46 @@
+body{
+    background-image: url(https://wallpaper.dog/large/20547035.jpg);
+    background-size: cover;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+h1{
+    color: white;
+}
+span {
+    color: goldenrod;
+}
+.navbar {
+    background-color: black;
+    width: 100%;
+    height: 90px;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 4%;
+    padding-right: 4%;
+}  
+.hero ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.hero ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero ul li a:hover {
+    color: goldenrod;
+    transition: .3s;
+}
+
+
+
+
+
